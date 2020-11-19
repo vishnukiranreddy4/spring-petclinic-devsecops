@@ -1,0 +1,4 @@
+<Context privileged="true" antiResourceLocking="true" 
+         docBase="${catalina.home}/webapps/manager">
+    <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
+</Context>
